@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Ex100.dir/main.c.o -o Ex100 

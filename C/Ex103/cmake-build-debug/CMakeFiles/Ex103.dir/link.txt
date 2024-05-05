@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Ex103.dir/main.c.o -o Ex103 

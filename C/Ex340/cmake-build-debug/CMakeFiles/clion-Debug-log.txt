@@ -1,0 +1,16 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Usuario/Desktop/Proyectos/AER/C/EX340/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc '-DCMAKE_CXX_COMPILER=g++' -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Usuario/Desktop/Proyectos/AER/C/EX340 -B /mnt/c/Users/Usuario/Desktop/Proyectos/AER/C/EX340/cmake-build-debug; exitcode=$?; sleep 0.001; (exit $exitcode)"
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: /mnt/c/Users/Usuario/Desktop/Proyectos/AER/C/EX340/cmake-build-debug
